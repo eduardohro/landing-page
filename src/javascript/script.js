@@ -40,6 +40,12 @@ $(document).ready(function() {
         distance: '20%'
     })
 
+    ScrollReveal().reveal('#img', {
+        origin: 'right',
+        duration: 2000,
+        distance: '20%'
+    })
+
     ScrollReveal().reveal('.dish', {
         origin: 'left',
         duration: 2000,
